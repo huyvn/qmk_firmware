@@ -36,6 +36,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define BOOTLOADHID_BOOTLOADER 1
 
 #define TAPPING_TERM 150
+#define TAPPING_TOGGLE 2
 
 /* key combination for command */
 #define IS_COMMAND() (keyboard_report->mods == (MOD_BIT(KC_LSHIFT) | MOD_BIT(KC_RSHIFT)))
